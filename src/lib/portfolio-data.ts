@@ -162,6 +162,29 @@ export const portfolioData = {
         demo: "#"
       },
       image: "/projects/storexpress.png"
+    },
+    {
+      title: "Mini Task Management System",
+      slug: "mini-task-management",
+      shortDescription: "Full-Stack Task Management Web Application",
+      overview: "A full-stack web application for managing tasks with secure user authentication and role-based access.",
+      features: [
+        "Task creation, updating and deletion",
+        "Mark tasks as completed",
+        "Filter tasks by status and priority",
+        "Sort tasks by due date or priority",
+        "Pagination for efficient task navigation",
+        "Role-based access control (USER – manage personal tasks, ADMIN – view all tasks)"
+      ],
+      techStack: ["Java", "Spring Boot", "JWT Security", "MySQL", "Next.js", "React", "Axios", "TailwindCSS", "Maven", "IntelliJ IDEA"],
+      architecture: "Spring Boot backend for REST APIs, MySQL database integration, and a responsive Next.js frontend communicating via Axios.",
+      challenges: "Implementing role-based access control and advanced task filtering, sorting, and pagination efficiently.",
+      learnings: "Demonstrates practical experience in REST API development, authentication, database integration, and frontend–backend communication.",
+      links: {
+        github: "https://github.com/Sujitha-Perera/Task-Management-Project",
+        demo: "#"
+      },
+      image: "/projects/task.png"
     }
   ],
   certifications: [
