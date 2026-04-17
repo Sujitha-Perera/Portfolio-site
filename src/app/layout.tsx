@@ -16,8 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sujitha Perera | Full-Stack Developer",
-  description: "Portfolio of Sujitha Perera, Full-Stack Developer & AI/ML Enthusiast",
+  title: "Sujitha Perera | Full-Stack & Backend Developer",
+  description:
+    "Portfolio of Sujitha Perera, Full-Stack and Backend Developer with AI/ML interests",
 };
 
 export default function RootLayout({
@@ -37,9 +38,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
-          <main className="min-h-screen pt-16">
-            {children}
-          </main>
+          <main className="min-h-screen pt-16">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>

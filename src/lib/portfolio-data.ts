@@ -3,8 +3,8 @@ import { Code2, Database, LayoutTemplate, Server, Settings, Smartphone } from "l
 export const portfolioData = {
   personal: {
     name: "Sujitha Perera",
-    role: "Computer Science Undergraduate | Full-Stack Developer | AI/ML Enthusiast | DevOps | Software Engineering",
-    headline: "Full-Stack Developer  |  AI/ML Enthusiast",
+    role: "Computer Science Undergraduate | Full-Stack Developer | Backend Engineer | AI/ML Enthusiast | DevOps | Software Engineering",
+    headline: "Full-Stack Developer | Backend Engineer | AI/ML Enthusiast",
     location: "Rathnapura, Sri Lanka",
     email: "sujithascc1@gmail.com",
     phone: "0766238435",
@@ -15,7 +15,7 @@ export const portfolioData = {
       resume: "/sujitha perera(cv).pdf",
     },
     about:
-      "Motivated and dedicated fourth-year Computer Science undergraduate with strong software engineering fundamentals and full-stack development experience. Passionate about applying AI/ML to create real-world solutions. Seeking internship or entry-level opportunities. Quick learner, adaptable, good communication.",
+      "Motivated and dedicated fourth-year Computer Science undergraduate with strong software engineering fundamentals and full-stack development experience. Passionate about applying AI/ML to create real-world solutions and building backend systems with Node.js, Go, Spring Boot, and Gin. Seeking internship or entry-level opportunities. Quick learner, adaptable, good communication.",
   },
   education: [
     {
@@ -34,17 +34,17 @@ export const portfolioData = {
     {
       category: "Backend",
       icon: Server,
-      items: ["Node.js", "Express.js", "NestJS"],
+      items: ["Node.js", "Express.js", "NestJS", "Spring Boot", "Gin"],
     },
     {
       category: "Databases",
       icon: Database,
-      items: ["MongoDB", "MySQL", "Redis"],
+      items: ["MongoDB", "MySQL", "PostgreSQL", "Redis"],
     },
     {
       category: "Languages",
       icon: Code2,
-      items: ["JavaScript", "TypeScript", "Java", "Python"],
+      items: ["JavaScript", "TypeScript", "Java", "Go", "Python"],
     },
     {
       category: "Tools",
@@ -185,6 +185,29 @@ export const portfolioData = {
         demo: "#"
       },
       image: "/projects/task.png"
+    },
+    {
+      title: "Leave Management System",
+      slug: "leave-management-system",
+      shortDescription: "Role-Based Leave Request and Approval Platform",
+      overview: "A modern web-based leave management application that digitizes employee leave requests and manager approvals with a centralized workflow.",
+      features: [
+        "Secure authentication and role-based access for employees and managers",
+        "Real-time leave request submission and tracking",
+        "Manager approval and rejection workflow",
+        "Employee leave history and status visibility",
+        "Responsive user interface with clear role-based dashboards",
+        "RESTful API integration for efficient data flow"
+      ],
+      techStack: ["React", "Tailwind CSS", "Go", "Gin", "PostgreSQL", "REST API"],
+      architecture: "Three-tier architecture with a React frontend layer, Go (Gin) backend API layer, and PostgreSQL data layer for scalable and maintainable system design.",
+      challenges: "Designing a smooth role-based workflow that keeps leave decisions transparent while avoiding approval bottlenecks.",
+      learnings: "Strengthened practical experience in Go API development with Gin, relational data modeling in PostgreSQL, and implementing real-time role-driven business flows.",
+      links: {
+        github: "#",
+        demo: "#"
+      },
+      image: "/projects/leave.png"
     }
   ],
   certifications: [
@@ -206,7 +229,7 @@ export const portfolioData = {
     }
   ],
   stats: [
-    { value: "5+", label: "Full-Stack Projects" },
+    { value: "7+", label: "Full-Stack Projects" },
     // { value: "3.35", label: "CGPA" },
     { value: "2+", label: "AI/ML Integrations" },
   ]
